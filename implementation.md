@@ -2,6 +2,12 @@
 
 Design decision: The code + design are inspired by the RouteLLM paper. This repo is for learning - not production. Data collection is synthetic, low quality, not tested enough.
 
+Data: Single line json file. You can find it here [./data/data.jsonl]
+
+As far as we concerned I created a dataset close to 1000 entries with queries and labels. So the means of using a Judge does not make sense. Thus the current implementation stagnate towards a system which is trained as a supervised model. 
+
+We could add a Judge to improve the model during test. I did not. 
+
 ## Approach
 
 - Learns from preference data
