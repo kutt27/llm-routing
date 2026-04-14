@@ -4,9 +4,9 @@ The purpose of the project is to build a routing for llm models based on user qu
 
 Preprint: [Link](https://arxiv.org/abs/2406.18665)
 
-Approach 1: [Complexity heuristics](https://github.com/kutt27/llm-routing/complexity-heuristics.md)
+Approach 1: [Complexity heuristics](https://github.com/kutt27/llm-routing/blob/master/notebooks/heuristics_exploration.ipynb)
 
-Approach 2: [Judge Based](https://github.com/kutt27/llm-routing/implementation.md)
+Approach 2: [Judge Based](https://github.com/kutt27/llm-routing/blob/master/notebooks/router_training.ipynb)
 
 Personal note: Myself advocate for Approach 1. Reason being I consider this model to be working on a low end device/agent orchestration layer. Considering this as a layer, I want to make it very lean, clean, and lightweight. So I personally seems to prefer a regular expression based approach. Running the second approach, I felt like adding a network + compute latency. When time is measured, I have to rethink.
 
